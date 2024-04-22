@@ -11,5 +11,11 @@
     <Reference Include="DocUtils">
       <HintPath>..\DocUtils\DocUtils\bin\Debug\netstandard2.0\DocUtils.dll</HintPath>
     </Reference>
+    <Reference Include="FSharp.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" Version="8.0.0.0" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.13.0" />
   </ItemGroup>
 </Project>
